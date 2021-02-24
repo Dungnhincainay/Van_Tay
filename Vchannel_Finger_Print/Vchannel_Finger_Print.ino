@@ -13,8 +13,6 @@ SoftwareSerial mySerial(2, 3);// Tx, Rx
 
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&mySerial);
 
-
-// test
 void setup()  
 {
   pinMode(12, OUTPUT);
